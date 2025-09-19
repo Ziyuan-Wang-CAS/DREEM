@@ -1,0 +1,55 @@
+metadata_version: 1
+name: 'DREEM: Detection of RNA folding Ensembles using Expectation-Maximization clustering'
+description: A computational tool to detect alternative structures formed by RNA molecules using single molecule chemical probing data
+authors:
+- name: Phillip J. Tomezsko
+  affiliations:
+  - name: 'Program in Virology, Harvard Medical School, Boston, Massachusetts, USA '
+- name: Vincent Corbin
+  affiliations:
+  - name: Bioinformatics Division, Walter and Eliza Hall Institute, Parkville, Australia
+- name: Paromita Gupta
+  affiliations:
+  - name: Whitehead Institute for Biomedical Research, Cambridge, Massachusetts, USA
+- name: Harish Swaminathan
+  affiliations:
+  - name: Whitehead Institute for Biomedical Research, Cambridge, Massachusetts, USA
+- name: Margalit Glassgow
+  affiliations:
+  - name: Whitehead Institute for Biomedical Research, Cambridge, Massachusetts, USA
+- name: Sitara Persad
+  affiliations:
+  - name: Whitehead Institute for Biomedical Research, Cambridge, Massachusetts, USA
+- name: Matthew D. Edwards
+  affiliations:
+  - name: Massachusetts Institute of Technology
+- name: Lachlan Mcintosh
+  affiliations:
+  - name: Bioinformatics Division, Walter and Eliza Hall Institute, Parkville, Australia
+- name: Anthony T. Papenfuss
+  affiliations:
+  - name: Bioinformatics Division, Walter and Eliza Hall Institute, Parkville, Australia
+- name: Ann Emery
+  affiliations:
+  - name: Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA
+- name: Ronald Swanstrom
+  affiliations:
+  - name: Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA
+- name: Trinity Zang
+  affiliations:
+  - name: 'Laboratory of Retrovirology, The Rockefeller University, New York City, New York, USA '
+- name: Paul Bieniasz
+  affiliations:
+  - name: 'Laboratory of Retrovirology, The Rockefeller University, New York City, New York, USA '
+- name: Daniel R. Kuritzkes
+  affiliations:
+  - name: Brigham and Women’s Hospital, Boston, Massachusetts, USA
+- name: Athe Tsibris
+  affiliations:
+  - name: Department of Medicine, Harvard Medical School, Boston, Massachusetts, USA
+- name: Silvi Rouskin
+  affiliations:
+  - name: Whitehead Institute for Biomedical Research, Cambridge, Massachusetts, USA
+corresponding_contributor:
+  name: Silvi Rouskin
+  email: srouskin@wi.mit.edu

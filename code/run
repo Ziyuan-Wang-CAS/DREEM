@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -ex
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+
+# RNAstructure executables and data tables
+chmod +x ../data/binaries/RNAstructure/exe/*
+export DATAPATH=../data/binaries/RNAstructure/data_tables/
+export PATH=../data/binaries/RNAstructure/exe/:$PATH
+
+# Run DREEM. The 3 samples in the demo dataset are:
+# RRE_invitroDMS, RRE_TcellsDMS, RRE_Untreated.
+# To run a different sample, in the command below,
+# replace RRE_invitroDMS with RRE_TcellsDMS or RRE_Untreated
+python Run_DREEM.py ../data/DREEM_Input/ ../results/ RRE_invitroDMS NL43rna 7410 7500 --fastq --struct

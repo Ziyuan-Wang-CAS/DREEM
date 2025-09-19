@@ -1,0 +1,178 @@
+name: dreem
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Base system
+  - python=3.6.13
+  
+  # Core scientific computing
+  - numpy=1.19.2
+  - scipy=1.1.0
+  - pandas=0.23.4
+  - biopython=1.72
+  
+  # Statistics and machine learning
+  - statsmodels=0.10.1
+  - patsy=1.0.1
+  
+  # Plotting and visualization
+  - plotly=3.2.1
+  - matplotlib-base
+  
+  # Data processing
+  - mkl=2020.2
+  - mkl-service=2.3.0
+  - mkl_fft=1.3.0
+  - mkl_random=1.1.1
+  
+  # System libraries
+  - libgcc-ng=11.2.0
+  - libstdcxx-ng=11.2.0
+  - libgfortran-ng=7.5.0
+  - libgfortran4=7.5.0
+  - intel-openmp=2022.1.0
+  - libgomp=11.2.0
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=5.1=1_gnu
+  
+  # File I/O and compression
+  - bzip2=1.0.8
+  - zlib=1.2.13
+  - zstd=1.5.6
+  - lz4-c=1.9.4
+  - xz=5.4.6
+  - libdeflate=1.22
+  
+  # Image and media libraries
+  - libpng=1.6.39
+  - jpeg=9e
+  - libtiff=4.5.1
+  - freetype=2.12.1
+  - fontconfig=2.14.1
+  - pixman=0.40.0
+  - cairo=1.16.0
+  - pango=1.50.7
+  - harfbuzz=4.3.0
+  - graphite2=1.3.14
+  - fribidi=1.0.10
+  
+  # XML and text processing
+  - libxml2=2.9.14
+  - expat=2.6.4
+  - pcre=8.45
+  - pcre2=10.42
+  
+  # System utilities
+  - make=4.2.1
+  - pkg-config=0.29.2
+  - readline=8.2
+  - ncurses=6.4
+  - libedit=3.1.20230828
+  - libffi=3.3
+  - libuuid=1.41.5
+  - dbus=1.13.18
+  - libxcb=1.15
+  
+  # Notebook and JSON support
+  - jupyter_core=4.8.1
+  - nbformat=5.1.3
+  - jsonschema=3.2.0
+  - traitlets=4.3.3
+  - ipython_genutils=0.2.0
+  
+  # Date and time
+  - python-dateutil=2.8.2
+  - pytz=2021.3
+  
+  # Networking and security
+  - openssl=1.1.1w
+  - ca-certificates=2024.12.31
+  - certifi=2021.5.30
+  - urllib3=1.26.8
+  - requests=2.27.1
+  - cffi=1.14.6
+  - cryptography=35.0.0
+  - pycparser=2.21
+  - pyopenssl=22.0.0
+  - pysocks=1.7.1
+  - idna=3.3
+  - charset-normalizer=2.0.4
+  - brotlipy=0.7.0
+  
+  # R support
+  - r-base=3.6.1
+  - _r-mutex=1.0.0=anacondar_1
+  
+  # GUI and display
+  - tk=8.6.14
+  - tktable=2.10
+  - bwidget=1.9.16
+  - glib=2.69.1
+  - icu=58.2
+  
+  # Version control and git
+  - libgit2=1.6.4
+  
+  # Bioinformatics tools
+  - bowtie2=2.3.4.1
+  - fastqc=0.11.7
+  - trim-galore=0.6.4
+  - cutadapt=2.4
+  - pigz=2.6
+  
+  # Java for Picard
+  - openjdk=11.0.13
+  
+  # Mathematical libraries
+  - gsl=2.4
+  - blas=1.0=mkl
+  - tbb=2020.3
+  - lerc=4.0.0
+  
+  # Additional compression and archiving
+  - libwebp-base=1.3.2
+  - lzip
+  
+  # Development tools
+  - gcc_linux-64=7.3.0
+  - gxx_linux-64=7.3.0
+  - gfortran_linux-64=7.3.0
+  - gcc_impl_linux-64=7.3.0
+  - gxx_impl_linux-64=7.3.0
+  - gfortran_impl_linux-64=7.3.0
+  - binutils_linux-64=2.33.1
+  - binutils_impl_linux-64=2.33.1
+  - ld_impl_linux-64=2.33.1
+  
+  # Network libraries
+  - curl=7.69.1
+  - libcurl=7.69.1
+  - libssh2=1.10.0
+  - krb5=1.17.1
+  
+  # Text processing
+  - perl=5.38.2
+  
+  # Python utilities
+  - setuptools=58.0.4
+  - pip=21.2.2
+  - wheel=0.37.1
+  - six=1.16.0
+  - decorator=5.1.1
+  - attrs=21.4.0
+  - pyrsistent=0.17.3
+  - retrying=1.3.3
+  - typing_extensions=4.1.1
+  - zipp=3.6.0
+  - importlib-metadata=4.8.1
+  - importlib_metadata=4.8.1
+  
+  # File handling
+  - bz2file=0.98
+  - xopen=0.7.3
+  - dnaio=0.3
+  
+  # SQLite
+  - sqlite=3.45.3
