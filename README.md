@@ -468,9 +468,6 @@ If you use this enhanced version of DREEM in your research, please cite:
 **Enhanced version source:**
 > This implementation is based on the original DREEM code from Code Ocean Capsule 6175523 (https://codeocean.com/capsule/6175523/tree/v1) with significant enhancements for live-cell proximity labeling data analysis.
 
-**Enhanced version development:**
-> Wang, Z. Enhanced DREEM implementation with statistical denoising and live-cell RNA structure analysis capabilities. ShuoHan Lab, CEMCS (2025).
-
 ## License
 
 This enhanced version maintains compatibility with the original MIT License from the base DREEM implementation, with additional enhancements developed by:
