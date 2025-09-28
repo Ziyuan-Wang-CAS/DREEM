@@ -436,16 +436,6 @@ All plots are generated as interactive HTML files using Plotly, allowing for zoo
 - **Cluster Scatter Plots** (`*_normmus.html`, `*_mus.html`): 2D projections of different clusters
 - **Control/Experimental Comparison** (`control_mut_pop_avg.html`, `experimental_mut_pop_avg.html`): Side-by-side comparison plots
 
-**Viewing Interactive Plots:**
-All HTML plots can be opened in any web browser and offer interactive features:
-```bash
-# Open plots in browser
-firefox results/bitvectors/sample_pop_avg.html
-# or
-open results/clustering/DMSModRate.html  # macOS
-# or double-click the HTML files in file explorer
-```
-
 ## Performance Optimization
 
 ### Hardware Recommendations
